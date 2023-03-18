@@ -1,14 +1,14 @@
 // code your solution here
-function saturdayFun(activity = "roller-skate"){
+const saturdayFun = (activity = "roller-skate") => {
 
 return (`This Saturday, I want to ${activity}!`);
 }
 saturdayFun();
-function mondayWork(activity = "go to the office"){
+ const mondayWork = (activity = "go to the office") => {
 return (`This Monday, I will ${activity}.`);
 }
 mondayWork();
-function wrapAdjective(timesOperator = '*'){
+const wrapAdjective = (timesOperator = '*') => {
     return function(sign = 'special'){
         return (`You are ${timesOperator}${sign}${timesOperator}!`);
     }
